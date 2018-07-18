@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'LJABC_Example' do
+  pod 'LJABC', :path => '../'
+
+  target 'LJABC_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
