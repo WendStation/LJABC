@@ -24,6 +24,7 @@
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		A0DB26BF72ECFCC2EB2F7A70 /* Pods_LJABC_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BE53866AFB320B986792271 /* Pods_LJABC_Tests.framework */; };
+		B2691A3F2105C920002029F2 /* LJTest.m in Sources */ = {isa = PBXBuildFile; fileRef = B2691A3E2105C920002029F2 /* LJTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,10 +40,10 @@
 /* Begin PBXFileReference section */
 		06B5E588B4333E5CD9A33296 /* Pods-LJABC_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LJABC_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LJABC_Example/Pods-LJABC_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		06BA5B9F6D05A5CC791C438E /* Pods-LJABC_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LJABC_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LJABC_Tests/Pods-LJABC_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		07BADCEEA02C95491323C516 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		07BADCEEA02C95491323C516 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		0BE53866AFB320B986792271 /* Pods_LJABC_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LJABC_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		171E8731B23131BE936E9529 /* Pods-LJABC_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LJABC_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-LJABC_Example/Pods-LJABC_Example.release.xcconfig"; sourceTree = "<group>"; };
-		3889F509EB4D2104C701EE9A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		3889F509EB4D2104C701EE9A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		4285ED928725CD25757CE47E /* Pods-LJABC_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LJABC_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LJABC_Tests/Pods-LJABC_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* LJABC_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LJABC_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -66,7 +67,9 @@
 		61B3C319DC753CD35D4039C1 /* Pods_LJABC_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LJABC_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		88CBDEEDD3EA5D6E20E5EB61 /* LJABC.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = LJABC.podspec; path = ../LJABC.podspec; sourceTree = "<group>"; };
+		88CBDEEDD3EA5D6E20E5EB61 /* LJABC.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LJABC.podspec; path = ../LJABC.podspec; sourceTree = "<group>"; };
+		B2691A3D2105C920002029F2 /* LJTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LJTest.h; sourceTree = "<group>"; };
+		B2691A3E2105C920002029F2 /* LJTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LJTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +140,8 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* LJViewController.h */,
 				6003F5A6195388D20070C39A /* LJViewController.m */,
+				B2691A3D2105C920002029F2 /* LJTest.h */,
+				B2691A3E2105C920002029F2 /* LJTest.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -404,6 +409,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* LJAppDelegate.m in Sources */,
+				B2691A3F2105C920002029F2 /* LJTest.m in Sources */,
 				6003F5A7195388D20070C39A /* LJViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
