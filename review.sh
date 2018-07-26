@@ -63,7 +63,7 @@ else
 fi
 
 
-reviewers=("handa,zhangyansong,zhaoxiaomeng,lixiangyu,songhongri,zhaohongwei,yuanyueguang")
+reviewers=("handa, zhangyansong, zhaoxiaomeng, lixiangyu, songhongri, zhaohongwei, yuanyueguang")
 
 echo "当前分支为:$git_branch"
 
