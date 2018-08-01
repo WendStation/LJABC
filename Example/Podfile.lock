@@ -1,16 +1,291 @@
 PODS:
-  - LJABC (0.1.0)
+  - AFNetworking (3.0.4):
+    - AFNetworking/NSURLSession (= 3.0.4)
+    - AFNetworking/Reachability (= 3.0.4)
+    - AFNetworking/Security (= 3.0.4)
+    - AFNetworking/Serialization (= 3.0.4)
+    - AFNetworking/UIKit (= 3.0.4)
+  - AFNetworking/NSURLSession (3.0.4):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.0.4)
+  - AFNetworking/Security (3.0.4)
+  - AFNetworking/Serialization (3.0.4)
+  - AFNetworking/UIKit (3.0.4):
+    - AFNetworking/NSURLSession
+  - BaiduMapKit (4.0.0)
+  - BlocksKit (2.2.5):
+    - BlocksKit/All (= 2.2.5)
+  - BlocksKit/All (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+    - BlocksKit/MessageUI
+    - BlocksKit/UIKit
+  - BlocksKit/Core (2.2.5)
+  - BlocksKit/DynamicDelegate (2.2.5)
+  - BlocksKit/MessageUI (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+  - BlocksKit/UIKit (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+  - CocoaLumberjack (3.4.2):
+    - CocoaLumberjack/Default (= 3.4.2)
+    - CocoaLumberjack/Extensions (= 3.4.2)
+  - CocoaLumberjack/Default (3.4.2)
+  - CocoaLumberjack/Extensions (3.4.2):
+    - CocoaLumberjack/Default
+  - FLAnimatedImage (1.0.12)
+  - FMDB (2.6.2):
+    - FMDB/standard (= 2.6.2)
+  - FMDB/standard (2.6.2)
+  - Godzippa (2.0.0)
+  - JRSwizzle (1.0)
+  - libextobjc (0.4.1):
+    - libextobjc/EXTADT (= 0.4.1)
+    - libextobjc/EXTConcreteProtocol (= 0.4.1)
+    - libextobjc/EXTKeyPathCoding (= 0.4.1)
+    - libextobjc/EXTNil (= 0.4.1)
+    - libextobjc/EXTSafeCategory (= 0.4.1)
+    - libextobjc/EXTScope (= 0.4.1)
+    - libextobjc/EXTSelectorChecking (= 0.4.1)
+    - libextobjc/EXTSynthesize (= 0.4.1)
+    - "libextobjc/NSInvocation+EXT (= 0.4.1)"
+    - "libextobjc/NSMethodSignature+EXT (= 0.4.1)"
+    - libextobjc/RuntimeExtensions (= 0.4.1)
+    - libextobjc/UmbrellaHeader (= 0.4.1)
+  - libextobjc/EXTADT (0.4.1):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTConcreteProtocol (0.4.1):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTKeyPathCoding (0.4.1):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTNil (0.4.1):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTSafeCategory (0.4.1):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTScope (0.4.1):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTSelectorChecking (0.4.1):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTSynthesize (0.4.1):
+    - libextobjc/RuntimeExtensions
+  - "libextobjc/NSInvocation+EXT (0.4.1)":
+    - libextobjc/RuntimeExtensions
+  - "libextobjc/NSMethodSignature+EXT (0.4.1)":
+    - libextobjc/RuntimeExtensions
+  - libextobjc/RuntimeExtensions (0.4.1)
+  - libextobjc/UmbrellaHeader (0.4.1)
+  - LJAliSDK (1.0.1):
+    - LJAliSDK/normal (= 1.0.1)
+  - LJAliSDK/normal (1.0.1)
+  - LJBadgeView (0.0.1):
+    - Masonry
+  - LJBaseAppConfig (0.0.9):
+    - SAMKeychain
+  - LJBaseViewControllerComponents (0.1.7):
+    - LJBaseViewControllerComponents/BaseNavigationController (= 0.1.7)
+    - LJBaseViewControllerComponents/BaseTabbarViewController (= 0.1.7)
+    - LJBaseViewControllerComponents/BaseViewController (= 0.1.7)
+    - LJBaseViewControllerComponents/Category (= 0.1.7)
+    - LJBaseViewControllerComponents/UIHelper (= 0.1.7)
+  - LJBaseViewControllerComponents/BaseNavigationController (0.1.7)
+  - LJBaseViewControllerComponents/BaseTabbarViewController (0.1.7):
+    - LJBaseViewControllerComponents/Category
+  - LJBaseViewControllerComponents/BaseViewController (0.1.7):
+    - CocoaLumberjack
+  - LJBaseViewControllerComponents/Category (0.1.7)
+  - LJBaseViewControllerComponents/UIHelper (0.1.7):
+    - LJBaseViewControllerComponents/Category
+  - LJCategoryKit (0.0.4):
+    - BlocksKit
+    - JRSwizzle
+    - Masonry
+  - LJComponentManager (1.0.1)
+  - LJComponentProtocol (0.0.1)
+  - LJHTTPService (0.1.9):
+    - LJHTTPService/Category (= 0.1.9)
+    - LJHTTPService/HttpBase (= 0.1.9)
+    - LJHTTPService/HttpLog (= 0.1.9)
+    - LJHTTPService/HTTPModel (= 0.1.9)
+    - LJHTTPService/ResponseModel (= 0.1.9)
+  - LJHTTPService/Category (0.1.9)
+  - LJHTTPService/HttpBase (0.1.9):
+    - LJBaseAppConfig
+    - LJBaseViewControllerComponents
+    - LJHTTPService/HTTPModel
+    - LJNetworkService
+  - LJHTTPService/HttpLog (0.1.9)
+  - LJHTTPService/HTTPModel (0.1.9):
+    - AFNetworking
+  - LJHTTPService/ResponseModel (0.1.9):
+    - Mantle
+  - LJImagePickerController (1.0.2):
+    - LJPhotoBrowser
+    - LJProgressHUDHelper
+    - Masonry
+    - SDWebImage
+  - LJLogService (0.0.3):
+    - LJLogService/framework (= 0.0.3)
+  - LJLogService/framework (0.0.3)
+  - LJMComponentHLDigManager (1.0.2):
+    - AFNetworking
+    - FMDB (= 2.6.2)
+    - Godzippa
+    - JRSwizzle (= 1.0)
+    - LJCategoryKit
+    - LJHTTPService (~> 0.1.4)
+    - LJMHLAppGlobal
+    - LJUtility
+  - LJMHLAppGlobal (0.1.0):
+    - SAMKeychain
+    - YYModel
+  - LJNetworkService (1.0.6):
+    - AFNetworking
+  - LJPhotoBrowser (0.2.0):
+    - Masonry
+    - SDWebImage
+    - SDWebImage/GIF
+  - LJProgressHUD (0.1.1):
+    - Masonry
+  - LJProgressHUDHelper (0.1.4):
+    - MBProgressHUD (~> 0.9.1)
+  - LJQQSDK (1.0.0)
+  - LJSegmentControl (0.0.1):
+    - LJCategoryKit
+    - Masonry
+  - LJUtility (0.0.2)
+  - LJWechatSDK (1.2.0)
+  - Mantle (2.1.0):
+    - Mantle/extobjc (= 2.1.0)
+  - Mantle/extobjc (2.1.0)
+  - Masonry (1.0.2)
+  - MBProgressHUD (0.9.2)
+  - Realm (1.1.0):
+    - Realm/Headers (= 1.1.0)
+  - Realm/Headers (1.1.0)
+  - RealmSwift (1.1.0):
+    - Realm (= 1.1.0)
+  - SAMKeychain (1.5.3)
+  - SDWebImage (4.0.0):
+    - SDWebImage/Core (= 4.0.0)
+  - SDWebImage/Core (4.0.0)
+  - SDWebImage/GIF (4.0.0):
+    - FLAnimatedImage (~> 1.0)
+    - SDWebImage/Core
+  - WeiboSDK (3.1.3)
+  - YYModel (1.0.4)
 
 DEPENDENCIES:
-  - LJABC (from `../`)
+  - AFNetworking (~> 3.0.0)
+  - BaiduMapKit
+  - FMDB
+  - libextobjc (= 0.4.1)
+  - LJAliSDK
+  - LJBadgeView (= 0.0.1)
+  - LJCategoryKit (= 0.0.4)
+  - LJComponentManager (= 1.0.1)
+  - LJComponentProtocol (= 0.0.1)
+  - LJImagePickerController
+  - LJLogService
+  - LJMComponentHLDigManager (= 1.0.2)
+  - LJPhotoBrowser (= 0.2.0)
+  - LJProgressHUD
+  - LJProgressHUDHelper
+  - LJQQSDK
+  - LJSegmentControl (= 0.0.1)
+  - LJWechatSDK
+  - Masonry (= 1.0.2)
+  - MBProgressHUD
+  - RealmSwift (~> 1.1.0)
+  - SDWebImage
+  - SDWebImage (= 4.0)
+  - SDWebImage/GIF
+  - WeiboSDK
 
-EXTERNAL SOURCES:
-  LJABC:
-    :path: ../
+SPEC REPOS:
+  http://git.lianjia.com/mobile_ios/Lianjia_component_Podspec.git:
+    - LJAliSDK
+    - LJBadgeView
+    - LJBaseAppConfig
+    - LJBaseViewControllerComponents
+    - LJCategoryKit
+    - LJComponentManager
+    - LJComponentProtocol
+    - LJHTTPService
+    - LJImagePickerController
+    - LJLogService
+    - LJMComponentHLDigManager
+    - LJMHLAppGlobal
+    - LJNetworkService
+    - LJPhotoBrowser
+    - LJProgressHUD
+    - LJProgressHUDHelper
+    - LJQQSDK
+    - LJSegmentControl
+    - LJUtility
+    - LJWechatSDK
+  https://github.com/CocoaPods/Specs.git:
+    - AFNetworking
+    - BaiduMapKit
+    - BlocksKit
+    - CocoaLumberjack
+    - FLAnimatedImage
+    - FMDB
+    - Godzippa
+    - JRSwizzle
+    - libextobjc
+    - Mantle
+    - Masonry
+    - MBProgressHUD
+    - Realm
+    - RealmSwift
+    - SAMKeychain
+    - SDWebImage
+    - WeiboSDK
+    - YYModel
 
 SPEC CHECKSUMS:
-  LJABC: 1971cc00b8a169879de3b1ecc056987591c5b713
+  AFNetworking: a0075feb321559dc78d9d85b55d11caa19eabb93
+  BaiduMapKit: 8fa2eb2ca81b92b740b19d9ff3b59d751d3e92e1
+  BlocksKit: 7f422b971407001178d181a43b99014ea2591fe6
+  CocoaLumberjack: db7cc9e464771f12054c22ff6947c5a58d43a0fd
+  FLAnimatedImage: 4a0b56255d9b05f18b6dd7ee06871be5d3b89e31
+  FMDB: 854a0341b4726e53276f2a8996f06f1b80f9259a
+  Godzippa: b423a467a9e4b4cb43bb4f3adb989d312795eb88
+  JRSwizzle: dd5ead5d913a0f29e7f558200165849f006bb1e3
+  libextobjc: a650fc1bf489a3d3a9bc2e621efa3e1006fc5471
+  LJAliSDK: 7f4340db0742f00cda59b43d50a750beff6e3da9
+  LJBadgeView: d3b302a4672f4675d8a7da827a80c62055d6656e
+  LJBaseAppConfig: f45340a1313c57b362a5b30d97091cde210b0312
+  LJBaseViewControllerComponents: 6b3260223624167414a9315b2224e9b2803e9853
+  LJCategoryKit: 111d7edcf6582867bc8d2bd2e738ddfaa16c7037
+  LJComponentManager: 6452ddf41f86f3198c2f8d0b49b1495d5552c69a
+  LJComponentProtocol: db3d4c81e116dfbe7599d61d209a5c606713158f
+  LJHTTPService: f5cd39a8143011ba360b42ad4f96a437bdcf1d49
+  LJImagePickerController: 5f9dde4d8c44fbd2c24db6d7538558cb024e9ed8
+  LJLogService: a412f51748b1f1c28a4de42319733c8f4c41c213
+  LJMComponentHLDigManager: 8257bedd0d8f22d4605869503eb4bc305a9cc0f9
+  LJMHLAppGlobal: 64ace7f103313c60a025b5f5f263329b285de30e
+  LJNetworkService: 7dd7c5a47eb7a5161d5ab2aaaaa8f7d026957878
+  LJPhotoBrowser: cce6db6023d32ba43b07257efb3edbf7c0a43913
+  LJProgressHUD: 4f4d097068c42ab6cfa26eb1d1408449f24d523d
+  LJProgressHUDHelper: 9b5a3794ec57fea3f8fba54a7d905732966d0510
+  LJQQSDK: 837cae2265b5e98798c10ff3f29f0b9594db9686
+  LJSegmentControl: fabfe280a91c7929fcf7bb534c3087956c8ad0b5
+  LJUtility: 07440c14678f93ce40603cbeb7843e8077569477
+  LJWechatSDK: 154f0275acfa8bc03266bbd63ed3df5c382f9c66
+  Mantle: 2fa750afa478cd625a94230fbf1c13462f29395b
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+  MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
+  Realm: ceecf1a4540c4ce9efe196fe73fa9855bce05bd8
+  RealmSwift: 838058b2db95b12cb86bd0cf209df642c33fb60a
+  SAMKeychain: 483e1c9f32984d50ca961e26818a534283b4cd5c
+  SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
+  WeiboSDK: acb067053668102cf07d01aa7604350162c2e466
+  YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
 
-PODFILE CHECKSUM: acf762a30dea68cfc05efcb57628e773a0618102
+PODFILE CHECKSUM: 93cd22bb65c1d1b8117ed46c9b77a56001b17cbe
 
-COCOAPODS: 1.3.1
+COCOAPODS: 1.5.0

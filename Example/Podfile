@@ -1,11 +1,126 @@
+# Uncomment this line to define a global platform for your project
+source 'http://git.lianjia.com/mobile_ios/Lianjia_component_Podspec.git'  #我们自己的私有spec仓库的地址
+source 'https://github.com/CocoaPods/Specs.git'  #官方仓库的地址
+platform :ios, '8.0'
+
 use_frameworks!
 
-target 'LJABC_Example' do
-  pod 'LJABC', :path => '../'
+target 'LJUIControlDemo' do
 
-  target 'LJABC_Tests' do
-    inherit! :search_paths
-
+    pod 'AFNetworking', '~> 3.0.0'
+    pod 'FMDB'
     
-  end
 end
+
+target :LJMapView do
+    
+    pod 'Masonry', '= 1.0.2'
+    pod 'LJProgressHUD'
+    pod 'BaiduMapKit'
+    
+end
+
+target :LJProgressHUD do
+    
+    pod 'Masonry', '= 1.0.2'
+    
+end
+
+target :LJProgressHUDHelper do
+    
+    pod 'MBProgressHUD'
+    
+end
+target :LJCustomAlertView do
+    
+    pod 'Masonry', '= 1.0.2'
+    
+end
+
+
+target :LJCustomView do
+    
+    pod 'Masonry', '= 1.0.2'
+    
+end
+
+target :LJPhotoBrowser do
+    
+    pod 'Masonry', '= 1.0.2'
+    pod 'SDWebImage','=4.0'
+    pod 'SDWebImage/GIF'
+end
+
+target :LJImagePickerController do
+    
+    pod 'Masonry','= 1.0.2'
+    pod 'LJPhotoBrowser','= 0.2.0'
+    pod 'LJProgressHUDHelper'
+    
+end
+
+
+target :LJSocialShareService do
+    
+    pod 'LJCategoryKit', '= 0.0.4'
+    pod 'LJAliSDK'
+    pod 'LJWechatSDK'
+    pod "WeiboSDK"
+    pod 'LJQQSDK'
+    
+end
+
+target :LJMCharts do
+   
+    pod 'RealmSwift', '~> 1.1.0'
+   
+end
+
+target :LJBadgeView do
+    
+    pod 'Masonry', '= 1.0.2'
+
+end
+
+target :LJSegmentControl do
+    
+    pod 'Masonry', '= 1.0.2'
+    pod 'LJCategoryKit', '= 0.0.4'
+
+end
+
+target :LJNavBar do
+
+    pod 'LJMComponentHLDigManager','= 1.0.2'
+    pod 'LJBadgeView', '= 0.0.1'
+    pod 'LJSegmentControl', '= 0.0.1'
+    pod 'LJComponentManager', '= 1.0.1'
+    pod 'LJComponentProtocol', '= 0.0.1'
+    pod 'LJCategoryKit', '= 0.0.4'
+end
+
+target :LJImportPhotoManager do
+    
+    pod 'LJImagePickerController'
+    pod 'LJPhotoBrowser','= 0.2.0'
+    pod 'Masonry', '= 1.0.2'
+    pod 'SDWebImage','=4.0'
+    pod 'LJProgressHUDHelper'
+end
+
+target :LJMMapView do
+    
+    pod 'Masonry', '= 1.0.2'
+    pod 'LJProgressHUD'
+    pod 'LJCategoryKit', '= 0.0.4'
+    pod 'LJLogService'
+    pod 'libextobjc', '= 0.4.1'
+    
+end
+
+target :LJListView do
+    pod 'SDWebImage'
+end
+
+
+
